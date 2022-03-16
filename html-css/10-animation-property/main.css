@@ -52,8 +52,7 @@ body {
 }
 
 .hero-text {
-  animation-name: fromTop;
-  animation-duration: 3s;
+  animation: fromTop 3s;
 }
 
 @keyframes fromTop {
@@ -85,8 +84,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 2px;
-  animation-name: fromBottom;
-  animation-duration: 3s;
+  animation: fromBottom 3s;
 }
 
 @keyframes fromBottom {
