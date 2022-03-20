@@ -174,7 +174,7 @@ header
   background: linear-gradient(
     to right,
     var(--clr-primary),
-    rgb(236, 171, 50),
+    #e9b949,
     var(--clr-primary)
   );
 }
