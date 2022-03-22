@@ -40,7 +40,7 @@ global
 
 body {
   font-family: var(--ff-primary);
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -128,5 +128,102 @@ h4 {
   }
   h4 {
     font-size: 1rem;
+  }
+}
+
+/*
+===============
+header
+===============
+*/
+
+.header {
+  min-height: 100vh;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/main-bcg.jpeg) center/cover no-repeat fixed;
+  position: relative;
+}
+
+.banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__subtitle {
+  color: var(--clr-primary);
+  font-family: var(--ff-secondary);
+  margin-bottom: 1.3rem;
+}
+
+.banner__title {
+  color: var(--clr-white);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.banner__btn {
+  font-size: 1.25rem;
+  padding: 1rem 1.75rem;
+  outline: 0.175rem solid var(--clr-primary);
+  outline-offset: 0.25rem;
+}
+
+.divider {
+  height: 0.5rem;
+  background: linear-gradient(
+    to left,
+    var(--clr-primary),
+    rgb(255, 186, 57),
+    var(--clr-primary)
+  );
+}
+
+/*
+===============
+skills
+===============
+*/
+
+.skill {
+  text-align: center;
+  padding: 2.5rem 0;
+  transition: var(--transition);
+}
+
+.skill:hover {
+  background: var(--clr-white);
+  box-shadow: 0 2px var(--clr-primary);
+}
+
+.skill:hover .skill__icon {
+  transform: translateY(-5px);
+}
+
+.skill__icon {
+  color: var(--clr-primary);
+  font-size: 2.5rem;
+  transition: var(--transition);
+  margin-bottom: 1rem;
+}
+
+.skill__text {
+  color: var(--clr-grey-5);
+  width: 17rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .skill {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skill {
+    width: 25%;
   }
 }
