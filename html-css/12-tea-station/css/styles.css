@@ -145,7 +145,9 @@ h4 {
   h4 {
     font-size: 1rem;
   }
+}
 
+@media screen and (min-width: 992px) {
   .section-center {
     width: 92vw;
   }
@@ -281,6 +283,10 @@ about
   margin-bottom: 1.5rem;
 }
 
+.about__btn {
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 992px) {
   .about__img,
   .about__info {
@@ -294,5 +300,89 @@ about
 
   .about__text {
     max-width: 30rem;
+  }
+}
+
+/*
+===============
+inventory
+===============
+*/
+
+.inventory {
+  background: var(--clr-grey-10);
+}
+
+.inventory__info {
+  margin-top: 2rem;
+}
+
+.inventory__text {
+  color: var(--clr-grey-5);
+  width: 26rem;
+  margin-bottom: 1.25rem;
+}
+
+.inventory__btn {
+  margin-bottom: 4rem;
+}
+
+/* inventory product */
+.inventory__product {
+  margin-bottom: 2rem;
+}
+.product__img {
+  margin-bottom: 2rem;
+}
+
+.product__pic {
+  height: 17rem;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.product__price {
+  color: var(--clr-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .inventory__product {
+    float: left;
+    width: 47.5%;
+  }
+
+  .inventory__product:nth-child(odd) {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inventory__product {
+    float: left;
+    width: 30%;
+  }
+
+  .inventory__product:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .inventory__product:not(:last-child) {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inventory__info {
+    float: left;
+    width: 30%;
+  }
+
+  .inventory__text {
+    width: 95%;
+  }
+
+  .inventory__products {
+    float: left;
+    width: 70%;
   }
 }
