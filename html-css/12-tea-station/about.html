@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tea Station || About</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"
+      integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <span class="nav__btn" id="nav-btn">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+    <div class="navbar" id="navbar">
+      <div class="navbar__header">
+        <span class="nav__close" id="nav-close">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">home</a>
+          </li>
+          <li class="nav__item">
+            <a href="skills.html" class="nav__link">skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="about.html" class="nav__link">about</a>
+          </li>
+          <li class="nav__item">
+            <a href="products.html" class="nav__link">products</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end of nav -->
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2 class="banner__subtitle">over one hundred flavors of</h2>
+        <h1 class="banner__title">specially crafted tea</h1>
+        <a href="skills.html" class="btn banner__btn">explore</a>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- divider -->
+    <div class="divider"></div>
+    <!-- about section -->
+    <section class="about section-center clearfix">
+      <!-- about img -->
+      <div class="about__img">
+        <div class="about__img--container">
+          <img src="./images/about-bcg.jpeg" alt="kettle" class="about__pic" />
+        </div>
+      </div>
+      <!-- about info -->
+      <article class="about__info">
+        <h3 class="about__subtitle subtitle">about our</h3>
+        <h2 class="about__title title">tea station</h2>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+          perferendis illum nisi soluta iste voluptatem.
+        </p>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+          perferendis illum nisi soluta iste voluptatem.
+        </p>
+        <!-- about btn -->
+        <a href="about.html" class="btn about__btn">learn more</a>
+      </article>
+    </section>
+    <!-- end of about section -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="section-center clearfix">
+        <!-- social links -->
+        <div class="social-links">
+          <!-- social link -->
+          <span class="social-link">
+            <a href="#">
+              <i class="social-link__icon fa-brands fa-facebook"></i>
+            </a>
+          </span>
+          <!-- end of social link -->
+          <!-- social link -->
+          <span class="social-link">
+            <a href="#">
+              <i class="social-link__icon fa-brands fa-twitter"></i>
+            </a>
+          </span>
+          <!-- end of social link -->
+          <!-- social link -->
+          <span class="social-link">
+            <a href="#">
+              <i class="social-link__icon fa-brands fa-instagram"></i>
+            </a>
+          </span>
+          <!-- end of social link -->
+        </div>
+        <!-- end of social links -->
+        <!-- footer text -->
+        <div class="footer__text">
+          &copy;<span id="date"></span>
+          <span class="footer__brand">tea station</span> all rights reserved
+        </div>
+        <!-- end of footer text -->
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="app.js"></script>
+  </body>
+</html>
