@@ -479,3 +479,74 @@ services
     margin-right: 5%;
   }
 }
+
+/*
+===============
+contact
+===============
+*/
+.contact {
+  background: var(--clr-grey-10);
+}
+
+/* contact info */
+.contact-item {
+  margin-bottom: 2rem;
+}
+
+.contact-item__title {
+  color: var(--clr-primary);
+  font-weight: 400;
+}
+
+.contact-item__text {
+  text-transform: uppercase;
+}
+
+/* contact form */
+.contact-form {
+  text-align: center;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding-top: 1.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.contact-form:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form__title {
+  color: var(--clr-grey-5);
+}
+
+.form-group {
+  padding: 0 1.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  background: var(--clr-grey-10);
+  padding: 1rem;
+  border: none;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+}
+
+.form-control::placeholder {
+  color: var(--clr-grey-1);
+  font-size: 0.875rem;
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+}
+
+.form-control:last-child {
+  margin-bottom: 2rem;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+}
