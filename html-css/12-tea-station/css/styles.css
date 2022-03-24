@@ -388,7 +388,7 @@ inventory
 
 .inventory__text {
   color: var(--clr-grey-5);
-  width: 26rem;
+  max-width: 26rem;
   margin-bottom: 1.25rem;
 }
 
