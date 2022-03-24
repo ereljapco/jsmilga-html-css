@@ -170,6 +170,44 @@ animation
   }
 }
 
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-10vw);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateX(10vw);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(10vw);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateX(-10vw);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 /*
 ===============
 nav
@@ -253,6 +291,7 @@ header
   background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/main-bcg.jpeg) center/cover no-repeat fixed;
   position: relative;
+  overflow-x: hidden;
 }
 
 .banner {
@@ -267,12 +306,14 @@ header
   color: var(--clr-primary);
   font-family: var(--ff-secondary);
   margin-bottom: 1.3rem;
+  animation: slideFromRight 5s linear;
 }
 
 .banner__title {
   color: var(--clr-white);
   text-transform: uppercase;
   margin-bottom: 2rem;
+  animation: slideFromLeft 5s linear;
 }
 
 .banner__btn {
