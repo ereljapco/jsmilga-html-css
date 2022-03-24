@@ -492,7 +492,7 @@ contact
 
 /* contact info */
 .contact-item {
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
 }
 
 .contact-item__title {
@@ -510,7 +510,7 @@ contact
   text-align: center;
   background: var(--clr-white);
   border-radius: var(--radius);
-  padding-top: 1.5rem;
+  padding-top: 1.25rem;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
@@ -524,33 +524,47 @@ contact
 }
 
 .form-group {
-  padding: 0 1.25rem;
+  padding: 0 1.5rem;
 }
 
 .form-control {
   display: block;
   width: 100%;
   background: var(--clr-grey-10);
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   border: none;
   border-radius: var(--radius);
-  margin: 1.5rem 0;
+  margin: 1.25rem 0;
 }
 
 .form-control::placeholder {
   color: var(--clr-grey-1);
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   font-family: var(--ff-primary);
   text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+
+.form-control:first-child {
+  margin-top: 1.75rem;
 }
 
 .form-control:last-child {
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
+  height: 7rem;
 }
 
 .submit-btn {
   width: 100%;
   padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-info,
+  .contact-form {
+    float: left;
+    width: 50%;
+  }
 }
 
 /*
@@ -562,6 +576,7 @@ footer
   background: #222;
   color: var(--clr-white);
   text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 /* social links */
