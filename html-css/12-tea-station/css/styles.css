@@ -487,6 +487,7 @@ contact
 */
 .contact {
   background: var(--clr-grey-10);
+  padding: 1rem 0;
 }
 
 /* contact info */
@@ -549,4 +550,39 @@ contact
 .submit-btn {
   width: 100%;
   padding: 1rem;
+}
+
+/*
+===============
+footer
+===============
+*/
+.footer {
+  background: #222;
+  color: var(--clr-white);
+  text-align: center;
+}
+
+/* social links */
+.social-links {
+  margin-bottom: 1.5rem;
+}
+.social-link__icon {
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  transition: var(--transition);
+  margin: 0 0.5rem;
+}
+
+.social-link__icon:hover {
+  color: var(--clr-primary);
+}
+
+.footer__text {
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+
+.footer__brand {
+  color: var(--clr-primary);
 }
