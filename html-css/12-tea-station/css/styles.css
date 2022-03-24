@@ -170,9 +170,11 @@ nav
 
 /* navbar */
 .navbar {
-  width: 100%;
   position: fixed;
-  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: var(--clr-grey-10);
   transition: var(--transition);
   transform: translateX(-100%);
