@@ -506,6 +506,7 @@ contact
 
 /* contact form */
 .contact-form {
+  max-width: 35rem;
   text-align: center;
   background: var(--clr-white);
   border-radius: var(--radius);
