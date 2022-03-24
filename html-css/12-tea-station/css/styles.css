@@ -356,7 +356,6 @@ skills
 */
 .skills {
   background: var(--clr-grey-10);
-  margin-bottom: 2rem;
 }
 
 .skill {
@@ -405,6 +404,9 @@ skills
 about
 ===============
 */
+.about {
+  margin-top: 2rem;
+}
 
 .about__img--container {
   background: var(--clr-primary);
