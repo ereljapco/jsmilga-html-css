@@ -683,6 +683,11 @@ contact
   border: none;
   border-radius: var(--radius);
   margin: 1.25rem 0;
+  color: var(--clr-grey-1);
+  font-size: 0.85rem;
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
 }
 
 .form-control::placeholder {
