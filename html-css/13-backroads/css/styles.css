@@ -340,6 +340,25 @@ Services
     flex: 0 0 calc(33.333% - 1rem);
   }
 }
+
+@media screen and (min-width: 1170px) {
+  .service {
+    display: flex;
+  }
+
+  .service__icon {
+    align-self: flex-start;
+  }
+
+  .service__info {
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .service__title {
+    margin-bottom: 0.5rem;
+  }
+}
 /*
 ===============
 Featured Tours
