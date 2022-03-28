@@ -404,6 +404,14 @@ Featured Tours
   margin-bottom: 0rem;
 }
 
+/* featured-tour footer */
+.featured-tour__footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--clr-primary-5);
+  text-transform: capitalize;
+}
+
 /*
 ===============
 Contact
