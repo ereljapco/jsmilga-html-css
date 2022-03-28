@@ -334,6 +334,12 @@ Services
     margin-bottom: 1.25rem;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .service {
+    flex: 0 0 calc(33.333% - 1rem);
+  }
+}
 /*
 ===============
 Featured Tours
