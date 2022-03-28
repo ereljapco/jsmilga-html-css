@@ -390,7 +390,7 @@ Featured Tours
 
 /* featured-tour info */
 .featured-tour__info {
-  padding: 1.15rem 1.5rem;
+  padding: 1.15rem 1.5rem 1rem 1.5rem;
 }
 
 .featured-tour__header {
@@ -402,6 +402,11 @@ Featured Tours
 .featured-tour__duration {
   color: var(--clr-grey-7);
   margin-bottom: 0rem;
+}
+
+/* featured-tour text */
+.featured-tour__text {
+  margin-bottom: 1rem;
 }
 
 /* featured-tour footer */
