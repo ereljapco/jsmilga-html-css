@@ -424,6 +424,11 @@ Featured Tours
   text-transform: capitalize;
 }
 
+/* featured-tours btn */
+.featured-tours__btn--container {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .featured-tours--wrapper {
     display: flex;
