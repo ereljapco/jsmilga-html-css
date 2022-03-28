@@ -588,3 +588,57 @@ Gallery
     flex: 1 1 25%;
   }
 }
+
+/*
+===============
+Footer
+===============
+*/
+.footer {
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+  text-align: center;
+  background-color: var(--clr-grey-1);
+  margin: 0;
+  padding: 6rem 0 6.25rem 0;
+}
+
+.footer a {
+  color: var(--clr-white);
+}
+
+.footer a:hover {
+  color: var(--clr-primary-5);
+}
+
+/* footer nav */
+.footer__nav {
+  margin-bottom: 1.5rem;
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__nav-item {
+  display: inline-block;
+  padding: 0 0.5rem;
+  font-size: 1rem;
+}
+
+/* footer social links */
+.footer__social-links {
+  margin-bottom: 1.5rem;
+}
+.footer__social-icon {
+  font-size: 2rem;
+}
+
+/* footer text */
+.footer__text {
+  text-transform: capitalize;
+  width: 90%;
+  margin: 0 auto;
+}
