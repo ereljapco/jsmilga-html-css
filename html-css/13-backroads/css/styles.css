@@ -582,3 +582,9 @@ Gallery
     flex: 0 0 50%;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .gallery__img--wrapper {
+    flex: 1 1 25%;
+  }
+}
