@@ -571,3 +571,14 @@ Gallery
   color: var(--clr-white);
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery__img--wrapper {
+    flex: 0 0 50%;
+  }
+}
