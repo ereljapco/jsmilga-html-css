@@ -367,6 +367,13 @@ Featured Tours
 .featured-tour {
   background-color: var(--clr-grey-10);
   box-shadow: var(--light-shadow);
+  margin-bottom: 2rem;
+  transition: var(--transition);
+}
+
+.featured-tour:hover {
+  transform: scale(1.02);
+  box-shadow: var(--dark-shadow);
 }
 
 /* featured-tour img--wrapper */
