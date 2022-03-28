@@ -505,6 +505,21 @@ Newsletter
   color: var(--clr-primary-5);
   background-color: var(--clr-primary-2);
 }
+
+@media screen and (min-width: 992px) {
+  .newsletter__form {
+    max-width: 55rem;
+    margin: 0 auto;
+  }
+
+  .newsletter__form-control {
+    flex: 0 0 calc(90% - 1rem);
+  }
+
+  .newsletter__submit-btn {
+    flex: 0 0 10%;
+  }
+}
 /*
 ===============
 Gallery
