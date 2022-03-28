@@ -424,6 +424,18 @@ Featured Tours
   text-transform: capitalize;
 }
 
+@media screen and (min-width: 768px) {
+  .featured-tours--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .featured-tour {
+    flex: 0 0 calc(50% - 2rem);
+  }
+}
+
 /*
 ===============
 Contact
