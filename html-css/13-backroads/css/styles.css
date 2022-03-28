@@ -387,6 +387,23 @@ Featured Tours
   background-color: var(--clr-primary-7);
   padding: 0.25rem 0.5rem;
 }
+
+/* featured-tour info */
+.featured-tour__info {
+  padding: 1.15rem 1.5rem;
+}
+
+.featured-tour__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.featured-tour__duration {
+  color: var(--clr-grey-7);
+  margin-bottom: 0rem;
+}
+
 /*
 ===============
 Contact
@@ -396,4 +413,4 @@ Contact
 ===============
 Gallery
 ===============
-*/
+*/ ;
