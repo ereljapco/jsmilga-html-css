@@ -455,6 +455,7 @@ Newsletter
 .newsletter {
   background-color: var(--clr-primary-5);
   padding: 5rem 0 5rem 0;
+  margin-bottom: 0;
 }
 
 /* newsletter info */
@@ -542,4 +543,4 @@ Newsletter
 ===============
 Gallery
 ===============
-*/ ;
+*/
