@@ -436,6 +436,11 @@ Featured Tours
   }
 }
 
+@media screen and (min-width: 1170px) {
+  .featured-tour {
+    flex: 0 0 calc(33.333% - 2rem);
+  }
+}
 /*
 ===============
 Contact
