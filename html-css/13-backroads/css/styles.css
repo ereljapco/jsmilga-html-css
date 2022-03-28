@@ -544,3 +544,30 @@ Newsletter
 Gallery
 ===============
 */
+.gallery__img--wrapper {
+  position: relative;
+}
+
+.gallery__img--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: hsla(173, 32%, 45%, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: var(--transition);
+  opacity: 0;
+}
+
+.gallery__img--wrapper:hover .gallery__img--overlay {
+  opacity: 1;
+}
+
+.gallery__link {
+  color: var(--clr-white);
+  cursor: pointer;
+}
