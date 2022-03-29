@@ -141,6 +141,7 @@ Global Classes
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
+  -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid transparent;
@@ -195,7 +196,9 @@ Navbar
 
 /* navbar header */
 .navbar__header {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   margin: 1rem 2rem;
 }
@@ -210,10 +213,12 @@ Navbar
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
 .navbar__toggle-btn:hover {
+  -webkit-transform: scale(1.25);
   transform: scale(1.25);
 }
 
@@ -221,6 +226,7 @@ Navbar
 .navbar__list {
   height: 0;
   overflow: hidden;
+  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
@@ -235,6 +241,7 @@ Navbar
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   padding: 1rem 0 1rem 2rem;
+  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
@@ -251,8 +258,11 @@ Navbar
 
 @media screen and (min-width: 992px) {
   .navbar--container {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
     align-items: center;
     margin: 1rem 2rem;
   }
@@ -268,7 +278,9 @@ Navbar
   .navbar__list {
     height: 100%;
     width: 27rem;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
   }
 
@@ -287,7 +299,9 @@ Navbar
   .navbar__social-links {
     height: 100%;
     width: 5rem;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
     font-size: 1.25rem;
   }
@@ -306,8 +320,11 @@ Hero
 ===============
 */
 .hero {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   min-height: 100vh;
   background: var(--clr-primary-5);
@@ -345,6 +362,14 @@ Hero
 
 @media screen and (min-width: 768px) {
   .hero {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(104, 177, 168, 0.7)),
+        to(rgba(0, 0, 0, 0.7))
+      ),
+      url(../images/main.jpeg) center/cover no-repeat;
     background: linear-gradient(
         to bottom,
         rgba(104, 177, 168, 0.7),
@@ -373,8 +398,11 @@ About
 
 @media screen and (min-width: 992px) {
   .about--wrapper {
+    display: -webkit-box;
     display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
     align-items: center;
   }
 
@@ -438,12 +466,15 @@ Services
 
 @media screen and (min-width: 576px) {
   .services--wrapper {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
     justify-content: space-between;
   }
 
   .service {
+    -webkit-box-flex: 0;
     flex: 0 0 calc(50% - 1rem);
   }
 
@@ -454,12 +485,14 @@ Services
 
 @media screen and (min-width: 992px) {
   .service {
+    -webkit-box-flex: 0;
     flex: 0 0 calc(33.333% - 1rem);
   }
 }
 
 @media screen and (min-width: 1170px) {
   .service {
+    display: -webkit-box;
     display: flex;
   }
 
@@ -485,10 +518,12 @@ Featured Tours
   background-color: var(--clr-grey-10);
   box-shadow: var(--light-shadow);
   margin-bottom: 2rem;
+  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
 .featured-tour:hover {
+  -webkit-transform: scale(1.02);
   transform: scale(1.02);
   box-shadow: var(--dark-shadow);
 }
@@ -500,6 +535,7 @@ Featured Tours
 
 .featured-tour__img {
   height: 15rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -518,8 +554,11 @@ Featured Tours
 }
 
 .featured-tour__header {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: baseline;
   align-items: baseline;
 }
 
@@ -535,7 +574,9 @@ Featured Tours
 
 /* featured-tour footer */
 .featured-tour__footer {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   color: var(--clr-primary-5);
   text-transform: capitalize;
@@ -548,18 +589,22 @@ Featured Tours
 
 @media screen and (min-width: 768px) {
   .featured-tours--wrapper {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
     justify-content: space-between;
   }
 
   .featured-tour {
+    -webkit-box-flex: 0;
     flex: 0 0 calc(50% - 2rem);
   }
 }
 
 @media screen and (min-width: 1170px) {
   .featured-tour {
+    -webkit-box-flex: 0;
     flex: 0 0 calc(33.333% - 2rem);
   }
 }
@@ -586,6 +631,7 @@ Newsletter
 
 /* newsletter form */
 .newsletter__form {
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
   max-width: 28rem;
@@ -601,9 +647,26 @@ Newsletter
   border: transparent;
 }
 .newsletter__form-control {
+  -webkit-box-flex: 1;
   flex: 1 1 auto;
   color: var(--clr-grey-5);
   margin-bottom: 1rem;
+}
+
+.newsletter__form-control::-webkit-input-placeholder {
+  text-transform: capitalize;
+}
+
+.newsletter__form-control::-moz-placeholder {
+  text-transform: capitalize;
+}
+
+.newsletter__form-control:-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.newsletter__form-control::-ms-input-placeholder {
+  text-transform: capitalize;
 }
 
 .newsletter__form-control::placeholder {
@@ -615,6 +678,7 @@ Newsletter
   color: var(--clr-primary-2);
   text-transform: capitalize;
   background-color: var(--clr-white);
+  -webkit-transition: var(--transition);
   transition: var(--transition);
   cursor: pointer;
 }
@@ -626,9 +690,12 @@ Newsletter
 
 @media screen and (min-width: 576px) {
   .newsletter--container {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: start;
     align-items: flex-start;
   }
 
@@ -644,6 +711,7 @@ Newsletter
 @media screen and (min-width: 992px) {
   .newsletter__form {
     flex-wrap: nowrap;
+    -webkit-box-flex: 1;
     flex: 1 1 auto;
     max-width: 95%;
     margin-left: auto;
@@ -672,10 +740,14 @@ Gallery
   bottom: 0;
   right: 0;
   background: hsla(173, 32%, 45%, 0.5);
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   font-size: 2rem;
+  -webkit-transition: var(--transition);
   transition: var(--transition);
   opacity: 0;
 }
@@ -691,17 +763,20 @@ Gallery
 
 @media screen and (min-width: 768px) {
   .gallery {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
   }
 
   .gallery__img--wrapper {
+    -webkit-box-flex: 0;
     flex: 0 0 50%;
   }
 }
 
 @media screen and (min-width: 992px) {
   .gallery__img--wrapper {
+    -webkit-box-flex: 1;
     flex: 1 1 25%;
   }
 }
@@ -722,6 +797,7 @@ Footer
 
 .footer a {
   color: var(--clr-white);
+  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
@@ -735,8 +811,10 @@ Footer
 }
 
 .footer__nav-list {
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
   justify-content: center;
 }
 
