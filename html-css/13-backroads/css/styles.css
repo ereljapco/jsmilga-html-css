@@ -722,6 +722,7 @@ Footer
 
 .footer a {
   color: var(--clr-white);
+  transition: var(--transition);
 }
 
 .footer a:hover {
