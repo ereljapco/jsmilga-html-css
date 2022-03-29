@@ -29,6 +29,25 @@
     <!-- header -->
     <header id="home">
       <!-- navbar -->
+      <nav class="navbar">
+        <div class="navbar--container">
+          <!-- navbar header -->
+          <div class="navbar__header">
+            <img class="navbar__logo" src="./images/logo.svg" alt="Backroads">
+            <button class="navbar__toggle-btn" id="nav-toggle" type="button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <!-- navbar menu -->
+          <ul class="navbar__list" id="nav-links">
+            <li class="navbar__item"><a href="#home" class="navbar__link">home</a></li>
+            <li class="navbar__item"><a href="#about" class="navbar__link">about</a></li>
+            <li class="navbar__item"><a href="#services" class="navbar__link">services</a></li>
+            <li class="navbar__item"><a href="#featured" class="navbar__link">featured</a></li>
+            <li class="navbar__item"><a href="#gallery" class="navbar__link">gallery</a></li>
+          </ul>
+        </div>
+      </nav>
       <!-- hero -->
       <div class="hero">
         <div class="hero-banner">
@@ -43,7 +62,7 @@
     </header>
     <!-- end of header -->
     <!-- about section -->
-    <section class="about section">
+    <section class="about section" id="about">
       <!-- about-title -->
       <h2 class="section-title about-title">
         about <span class="section-title--highlight">us</span>
@@ -68,7 +87,7 @@
     </section>
     <!-- end of about section -->
     <!-- services section -->
-    <section class="services section">
+    <section class="services section" id="services">
       <!-- services-title -->
       <h2 class="section-title services-title">
         our <span class="section-title--highlight">services</span>
@@ -126,7 +145,7 @@
     </section>
     <!-- end of services section -->
     <!-- featured tours section -->
-    <section class="featured-tours section">
+    <section class="featured-tours section" id="featured">
       <!-- featured-tours title -->
       <h2 class="featured-tours__title section-title">
         featured <span class="section-title--highlight">tours</span>
@@ -256,7 +275,7 @@
     </section>
     <!-- end of featured tours section -->
     <!-- newsletter section -->
-    <section class="newsletter section">
+    <section class="newsletter section" id="newsletter">
       <div class="newsletter--container section--center">
         <div class="newsletter__info">
           <h3 class="newsletter__title">Want latest tour info  and updates?</h3>
@@ -270,7 +289,7 @@
     </section>
     <!-- end of newsletter section -->
     <!-- gallery section -->
-    <div class="gallery">
+    <div class="gallery" id="gallery">
       <!-- gallery img -->
       <div class="gallery__img--wrapper">
         <img class="gallery__img" src="./images/tour-1.jpeg" alt="Tibet Adventure">
