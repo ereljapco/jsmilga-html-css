@@ -183,6 +183,72 @@ Global Classes
 Navbar
 ===============
 */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--clr-white);
+  box-shadow: var(--light-shadow);
+  z-index: 2;
+}
+
+/* navbar header */
+.navbar__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+.navbar__logo {
+  width: 11rem;
+}
+
+.navbar__toggle-btn {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.navbar__toggle-btn:hover {
+  transform: scale(1.25);
+}
+
+/* navbar menu */
+.navbar__list {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-links {
+  height: 280px;
+}
+
+.navbar__link {
+  display: block;
+  color: var(--clr-grey-1);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  padding: 1rem 0 1rem 2rem;
+  transition: var(--transition);
+}
+
+.navbar__link:hover {
+  color: var(--clr-primary-2);
+  background-color: var(--clr-primary-7);
+  padding-left: 2.5rem;
+}
+
+.navbar__social-links {
+  height: 0;
+  overflow: hidden;
+}
+
 /*
 ===============
 Hero
