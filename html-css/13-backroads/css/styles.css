@@ -201,7 +201,7 @@ Navbar
 }
 
 .navbar__logo {
-  width: 11rem;
+  height: 1.875rem;
 }
 
 .navbar__toggle-btn {
@@ -249,6 +249,57 @@ Navbar
   overflow: hidden;
 }
 
+@media screen and (min-width: 992px) {
+  .navbar--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+  }
+
+  .navbar__header {
+    margin: 0;
+  }
+  .navbar__toggle-btn {
+    display: none;
+  }
+
+  /* navbar list */
+  .navbar__list {
+    height: 100%;
+    width: 27rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar__link {
+    display: block;
+    padding: 0;
+  }
+
+  .navbar__link:hover {
+    color: var(--clr-primary-5);
+    background-color: transparent;
+    padding-left: 0;
+  }
+
+  /* navbar social links */
+  .navbar__social-links {
+    height: 100%;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+  }
+
+  .navbar__social-link {
+    color: var(--clr-primary-5);
+  }
+
+  .navbar__social-link:hover {
+    color: var(--clr-primary-8);
+  }
+}
 /*
 ===============
 Hero
