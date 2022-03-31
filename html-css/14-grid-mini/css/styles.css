@@ -4,7 +4,7 @@ Variables
 
 :root {
   /* PRIMARY COLORS */
-  --clr-primary-5: #f44ae3;
+  --clr-primary-5: rgb(244, 74, 227);
   /* NEUTRAL COLORS */
   --clr-white: #fff;
   --clr-grey-1: #222;
@@ -146,6 +146,38 @@ Hero
   color: var(--clr-white);
   font-size: 1rem;
   width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero__info {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .hero__info {
+    padding: 0;
+    width: 83.65vw;
+    margin: 0 auto;
+  }
+
+  .hero__text {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background: linear-gradient(to bottom, rgba(244, 74, 227, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image-2.jpeg) center/cover no-repeat;
+  }
+
+  .hero__info {
+    max-width: 40.25rem;
+  }
+
+  .hero__title {
+    font-size: 4rem;
+  }
 }
 
 /*=============
