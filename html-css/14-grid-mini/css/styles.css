@@ -126,6 +126,28 @@ Navbar
 Hero
 =============*/
 
+.hero {
+  min-height: 100vh;
+  background-color: var(--clr-primary-5);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero__info {
+  padding: 0 3rem;
+}
+
+.hero__title {
+  color: var(--clr-white);
+}
+
+.hero__text {
+  color: var(--clr-white);
+  font-size: 1rem;
+  width: 80%;
+}
+
 /*=============
 Cards
 =============*/
