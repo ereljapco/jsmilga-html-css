@@ -87,7 +87,7 @@ Navbar
   background-color: var(--clr-grey-8);
 }
 
-.section--container {
+.navbar {
   max-width: 1170px;
   margin: 0 auto;
 }
