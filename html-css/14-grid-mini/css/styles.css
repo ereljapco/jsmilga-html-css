@@ -64,3 +64,59 @@ p {
   font-size: 0.7em;
   line-height: 2;
 }
+
+.btn {
+  display: inline-block;
+  color: var(--clr-primary-5);
+  border: 5px solid var(--clr-primary-5);
+  padding: 0.75rem 1rem;
+  margin: 3rem 5rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  color: var(--clr-white);
+  background-color: var(--clr-primary-5);
+}
+
+/*=============
+Navbar
+=============*/
+
+.navbar {
+  background-color: var(--clr-grey-8);
+}
+
+.navbar__list {
+  display: grid;
+
+}
+
+.navbar__link {
+  display: block;
+  color: var(--clr-primary-5);
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  padding: 1rem 2rem;
+  transition: var(--transition);
+}
+
+.navbar__link:hover {
+  color: var(--clr-grey-1);
+}
+
+/*=============
+Hero
+=============*/
+
+/*=============
+Cards
+=============*/
+
+/*=============
+Tiles
+=============*/
+
+/*=============
+Layout
+=============*/
