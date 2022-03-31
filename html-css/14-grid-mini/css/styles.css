@@ -83,10 +83,13 @@ p {
 Navbar
 =============*/
 
-.navbar {
+.header {
   background-color: var(--clr-grey-8);
 }
 
+.navbar__list {
+  list-style-type: none;
+}
 
 .navbar__link {
   display: block;
