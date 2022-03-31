@@ -87,10 +87,6 @@ Navbar
   background-color: var(--clr-grey-8);
 }
 
-.navbar__list {
-  display: grid;
-
-}
 
 .navbar__link {
   display: block;
@@ -103,6 +99,13 @@ Navbar
 
 .navbar__link:hover {
   color: var(--clr-grey-1);
+}
+
+@media screen and (min-width: 992px) {
+  .navbar__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /*=============
