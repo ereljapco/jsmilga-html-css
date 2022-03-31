@@ -1,0 +1,71 @@
+/*
+==========
+Variables
+==========
+*/
+
+:root {
+  /* fonts */
+  --ff-primary: 'Poppins', sans-serif;
+  /* primary colors */
+  --clr-primary: #cfb86d;
+  /* grey colors */
+  --clr-grey-1: #222;
+  --clr-grey-8: #afafaf;
+  --clr-grey-10: #f7f7f7;
+  /* white */
+  --clr-white: #fff;
+  /* others */
+  --transition: all 0.3s linear;
+  --spacing: 0.2rem;
+}
+
+/*
+==========
+Global Styles
+==========
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  color: var(--clr-grey-1);
+  background-color: var(--clr-white);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.7rem;
+  line-height: 2;
+}
