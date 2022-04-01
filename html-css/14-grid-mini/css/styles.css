@@ -317,6 +317,7 @@ Tiles
 Layout
 =============*/
 
+/* header */
 .layout-header {
   background-color: var(--clr-primary-5);
   padding-block: 0.5rem; 
@@ -325,4 +326,27 @@ Layout
 .layout-header__title {
   color: var(--clr-white);
   text-align: center;
+}
+
+/* nav */
+.nav {
+  background-color: var(--clr-grey-8);
+}
+
+.navbar__list {
+  list-style-type: none;
+}
+
+.nav__link {
+  display: block;
+  color: var(--clr-grey-1);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  padding: 1rem;
+  transition: var(--transition);
+}
+
+.nav__link:hover {
+  color: var(--clr-white);
 }
