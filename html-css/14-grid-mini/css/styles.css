@@ -399,3 +399,10 @@ Layout
     padding-bottom: 5rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: 200px auto 50px;
+  }
+}
