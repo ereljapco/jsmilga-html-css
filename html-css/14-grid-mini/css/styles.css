@@ -356,3 +356,17 @@ Layout
   font-size: 1rem;
   padding: 2rem;
 }
+
+/* social links */
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  background-color: var(--clr-primary-5);
+}
+
+.social-links__icon {
+  font-size: 1.25rem;
+  color: var(--clr-white);
+  padding-block: 1rem;
+}
