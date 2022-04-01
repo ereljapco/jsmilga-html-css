@@ -370,3 +370,16 @@ Layout
   color: var(--clr-white);
   padding-block: 1rem;
 }
+
+/* footer */
+.footer {
+  background-color: var(--clr-grey-1);
+  padding-block: 0.5rem;
+}
+
+.footer__text {
+  color: var(--clr-white);
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
