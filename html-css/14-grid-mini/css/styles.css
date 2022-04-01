@@ -333,7 +333,7 @@ Layout
   background-color: var(--clr-grey-8);
 }
 
-.navbar__list {
+.nav__list {
   list-style-type: none;
 }
 
@@ -382,4 +382,20 @@ Layout
   font-size: 1.2rem;
   text-align: center;
   text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: stretch;
+  }
+
+  .nav__link {
+    text-align: center;
+  }
+
+  .main__text {
+    padding-bottom: 5rem;
+  }
 }
