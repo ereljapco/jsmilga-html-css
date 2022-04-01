@@ -184,25 +184,41 @@ Hero
 Cards
 =============*/
 
+.cards {
+  margin-block: 4rem;
+}
+
+.cards--container {
+  width: 80vw;
+  max-width: 1080px;
+  margin: 2rem auto;
+}
+
 .cards__title {
   text-align: center;
 }
 
 .cards--container {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   justify-content: center;
+  gap: 3rem 2rem;
 }
 
 /* card */
 .card {
-  min-width: 350px;
-  width: 90vw;
-  border: 2px solid var(--clr-grey-8);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  border: 1px solid var(--clr-grey-8);
 }
 
 /* card info */
 .card__info {
   padding: 1rem;
+}
+
+.card__text {
+  font-size: 0.7rem;
 }
 
 /* card footer */
