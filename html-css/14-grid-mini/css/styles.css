@@ -239,6 +239,14 @@ Cards
 Tiles
 =============*/
 
+.tiles {
+  margin-block: 4rem;
+}
+
+.tiles__title {
+  text-align: center;
+}
+
 /*=============
 Layout
 =============*/
