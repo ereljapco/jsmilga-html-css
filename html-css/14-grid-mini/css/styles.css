@@ -350,3 +350,9 @@ Layout
 .nav__link:hover {
   color: var(--clr-white);
 }
+
+/* main */
+.main__text {
+  font-size: 1rem;
+  padding: 2rem;
+}
