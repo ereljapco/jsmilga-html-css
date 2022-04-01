@@ -68,9 +68,10 @@ p {
 .btn {
   display: inline-block;
   color: var(--clr-primary-5);
-  border: 5px solid var(--clr-primary-5);
-  padding: 0.75rem 1rem;
-  margin: 3rem 5rem;
+  text-transform: capitalize;
+  border: 3px solid var(--clr-primary-5);
+  padding: 0.5rem 1rem;
+  margin: 3rem;
   transition: var(--transition);
 }
 
