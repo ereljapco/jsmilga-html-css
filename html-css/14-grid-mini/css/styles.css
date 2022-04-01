@@ -240,7 +240,8 @@ Tiles
 =============*/
 
 .tiles {
-  margin-block: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
 }
 
 .tiles__title {
@@ -253,6 +254,7 @@ Tiles
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   width: 90vw;
+  max-width: 1170px;
   margin-inline: auto;
 }
 
