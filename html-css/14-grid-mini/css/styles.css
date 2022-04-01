@@ -405,7 +405,7 @@ Layout
     height: 100vh;
     display: grid;
     grid-template-columns: 200px auto 50px;
-    grid-template-rows: 3.25rem auto 3rem;
+    grid-template-rows: 3.25rem auto 3.4rem;
     grid-template-areas: 
     "header header header"
     "nav    main   social"
@@ -448,5 +448,6 @@ Layout
   /* footer */
   .footer {
     grid-area: footer;
+    padding-bottom: 1rem;
   }
 }
