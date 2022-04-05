@@ -159,6 +159,12 @@ Navbar
   cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar__toggle-btn {
+    display: none;
+  }
+}
+
 .navbar__bars-svg {
   height: 2rem;
 }
