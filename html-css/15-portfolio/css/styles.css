@@ -138,6 +138,39 @@ h4 {
 /* ===============
 Navbar
 =============== */
+.navbar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  height: 5rem;
+  padding-inline: 1rem;
+  box-shadow: var(--dark-shadow);
+}
+
+.navbar__logo {
+  justify-self: start;
+  width: 100%;
+}
+
+.navbar__btn {
+  justify-self: end;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.navbar__bars-svg {
+  height: 2rem;
+}
+
+.navbar__bars-path {
+  fill: var(--clr-primary-5);
+}
+
+/* DELETE THIS */
+.spacer {
+  min-height: 100vh;
+}
 
 /* ===============
 Sidebar
