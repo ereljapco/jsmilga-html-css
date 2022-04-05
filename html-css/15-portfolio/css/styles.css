@@ -159,12 +159,6 @@ Navbar
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
-  .navbar__toggle-btn {
-    display: none;
-  }
-}
-
 .navbar__bars-svg {
   height: 2rem;
 }
@@ -240,6 +234,48 @@ Navbar
 
 .navbar__social-link:hover {
   color: var(--clr-primary-5);
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    background-color: var(--clr-primary-9);
+    box-shadow: none;
+  }
+  .navbar__toggle-btn {
+    display: none;
+  }
+
+  .navbar__menu {
+    position: relative;
+    transform: translateX(0);
+    background-color: transparent;
+    justify-content: end;
+  }
+
+  .navbar__links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
+
+  .navbar__link {
+    display: inline;
+    color: var(--clr-grey-1);
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+
+  .navbar__link:hover {
+    color: var(--clr-primary-5);
+  }
+
+  .navbar__close-btn {
+    display: none;
+  }
+
+  .navbar__social-links {
+    display: none;
+  }
 }
 
 /* DELETE THIS */
