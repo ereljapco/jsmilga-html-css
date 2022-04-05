@@ -176,6 +176,7 @@ Navbar
   transition: var(--transition);
   display: grid;
   place-content: center;
+  text-align: center;
 }
 
 .show-sidebar {
@@ -201,6 +202,21 @@ Navbar
 
 .navbar__close-btn:hover .navbar__xmark-path {
   fill: #A95C68;
+}
+
+.navbar__link {
+  display: inline-block;
+  color: var(--clr-grey-5);
+  font-family: var(--ff-secondary);
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  margin-bottom: 2rem;
+  transition: var(--transition);
+}
+
+.navbar__link:hover {
+  color: var(--clr-primary-5);
 }
 
 /* DELETE THIS */
