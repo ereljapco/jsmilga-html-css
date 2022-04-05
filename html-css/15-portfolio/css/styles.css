@@ -219,6 +219,22 @@ Navbar
   color: var(--clr-primary-5);
 }
 
+.navbar__social-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 20rem;
+}
+
+.navbar__social-link {
+  color: var(--clr-grey-1);
+  font-size: 1.5rem;
+  transition: var(--transition);
+}
+
+.navbar__social-link:hover {
+  color: var(--clr-primary-5);
+}
+
 /* DELETE THIS */
 .spacer {
   min-height: 100vh;
