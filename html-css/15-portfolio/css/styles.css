@@ -206,7 +206,7 @@ Navbar
 
 .navbar__link {
   display: inline-block;
-  color: var(--clr-grey-5);
+  color: var(--clr-primary-5);
   font-family: var(--ff-secondary);
   font-size: 2rem;
   text-transform: capitalize;
@@ -216,7 +216,7 @@ Navbar
 }
 
 .navbar__link:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-7);
 }
 
 .navbar__social-links {
