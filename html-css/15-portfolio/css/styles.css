@@ -167,6 +167,13 @@ Navbar
   fill: var(--clr-primary-5);
 }
 
+/* navbar menu */
+.navbar__menu {
+  position: fixed;
+  inset: 0;
+  background-color: var(--clr-grey-10);
+}
+
 /* DELETE THIS */
 .spacer {
   min-height: 100vh;
