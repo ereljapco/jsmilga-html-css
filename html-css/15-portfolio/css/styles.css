@@ -152,7 +152,7 @@ Navbar
   width: 100%;
 }
 
-.navbar__btn {
+.navbar__toggle-btn {
   justify-self: end;
   background-color: transparent;
   border-color: transparent;
