@@ -174,6 +174,27 @@ Navbar
   background-color: var(--clr-grey-10);
 }
 
+.navbar__close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.navbar__xmark-svg {
+  height: 3rem;
+}
+
+.navbar__xmark-path {
+  fill: #C41E3A;
+}
+
+.navbar__close-btn:hover .navbar__xmark-path {
+  fill: #A95C68;
+}
+
 /* DELETE THIS */
 .spacer {
   min-height: 100vh;
