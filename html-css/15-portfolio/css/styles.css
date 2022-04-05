@@ -147,6 +147,11 @@ Navbar
   box-shadow: var(--dark-shadow);
 }
 
+.navbar-fixed {
+  position: sticky;
+  top: 0;
+}
+
 .navbar__logo {
   justify-self: start;
   width: 100%;
@@ -241,6 +246,12 @@ Navbar
     background-color: var(--clr-primary-9);
     box-shadow: none;
   }
+
+  .navbar-fixed {
+    background-color: var(--clr-white);
+    box-shadow: var(--dark-shadow);
+  }
+
   .navbar__toggle-btn {
     display: none;
   }
@@ -280,7 +291,7 @@ Navbar
 
 /* DELETE THIS */
 .spacer {
-  min-height: 100vh;
+  min-height: 200vh;
 }
 
 /* ===============
