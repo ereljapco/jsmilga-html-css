@@ -172,6 +172,12 @@ Navbar
   position: fixed;
   inset: 0;
   background-color: var(--clr-grey-10);
+  transform: translateX(-100%);
+  transition: var(--transition);
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 .navbar__close-btn {
