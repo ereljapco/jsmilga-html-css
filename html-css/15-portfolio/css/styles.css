@@ -313,8 +313,23 @@ Hero
   place-content: center;
 }
 
+.hero--center {
+  width: 90vw;
+}
+
 .hero--underline {
   margin-bottom: 1rem;
+}
+
+.hero__text {
+  color: var(--clr-grey-4);
+  font-family: var(--ff-primary);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  line-height: 1.25;
+  margin-bottom: 2rem;
 }
 
 /* ===============
