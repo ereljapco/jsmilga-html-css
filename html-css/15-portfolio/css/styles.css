@@ -3,7 +3,7 @@ Variables
 =============== */
 :root {
   /* fonts */
-  --ff-primary: 'Roboto', sans-serif;
+  --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
   /* darker primary color */
   --clr-primary-1: hsl(264, 20%, 5%);
@@ -177,7 +177,6 @@ Navbar
 .navbar-fixed {
   position: sticky;
   top: 0;
-  z-index: 10;
 }
 
 .navbar__logo {
@@ -230,11 +229,11 @@ Navbar
 }
 
 .navbar__xmark-path {
-  fill: #C41E3A;
+  fill: #c41e3a;
 }
 
 .navbar__close-btn:hover .navbar__xmark-path {
-  fill: #A95C68;
+  fill: #a95c68;
 }
 
 .navbar__link {
