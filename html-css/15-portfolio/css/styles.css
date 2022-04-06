@@ -313,6 +313,10 @@ Hero
   place-content: center;
 }
 
+.hero--underline {
+  margin-bottom: 1rem;
+}
+
 /* ===============
 About
 =============== */
