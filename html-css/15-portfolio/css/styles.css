@@ -102,7 +102,7 @@ h4 {
 /* global classes */
 .btn {
   display: inline-block;
-  color: var(--clr-primary-2);
+  color: var(--clr-primary-9);
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -117,6 +117,7 @@ h4 {
 }
 
 .btn:hover {
+  color: var(--clr-primary-3);
   background-color: var(--clr-primary-8);
 }
 
@@ -301,10 +302,6 @@ Navbar
 .spacer {
   min-height: 200vh;
 }
-
-/* ===============
-Sidebar
-=============== */
 
 /* ===============
 Hero
