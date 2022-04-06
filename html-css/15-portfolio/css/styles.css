@@ -143,7 +143,7 @@ h4 {
 }
 
 .section--center {
-  width: 90w;
+  width: 90vw;
   margin-inline: auto;
   max-width: var(--max-width);
 }
