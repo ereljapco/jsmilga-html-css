@@ -307,14 +307,13 @@ Navbar
 Hero
 =============== */
 .hero {
-  min-height: calc(100vh - 5rem);
   background-color: var(--clr-primary-9);
-  display: grid;
-  place-content: center;
 }
 
 .hero--center {
-  width: 90vw;
+  min-height: calc(100vh - 5rem);
+  display: grid;
+  place-content: center;
 }
 
 .hero--underline {
