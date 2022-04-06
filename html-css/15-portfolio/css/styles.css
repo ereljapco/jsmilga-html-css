@@ -119,6 +119,23 @@ h4 {
   background-color: var(--clr-primary-8);
 }
 
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 20rem;
+  margin-top: 3rem;
+}
+
+.social-link {
+  color: var(--clr-grey-1);
+  font-size: 1.5rem;
+  transition: var(--transition);
+}
+
+.social-link:hover {
+  color: var(--clr-primary-5);
+}
+
 .section {
   padding-block: 5rem;
 }
@@ -222,23 +239,6 @@ Navbar
 
 .navbar__link:hover {
   color: var(--clr-primary-7);
-}
-
-.navbar__social-links {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: 20rem;
-  margin-top: 3rem;
-}
-
-.navbar__social-link {
-  color: var(--clr-grey-1);
-  font-size: 1.5rem;
-  transition: var(--transition);
-}
-
-.navbar__social-link:hover {
-  color: var(--clr-primary-5);
 }
 
 @media screen and (min-width: 768px) {
