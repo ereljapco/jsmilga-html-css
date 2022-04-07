@@ -383,8 +383,13 @@ Hero
 /* ===============
 About
 =============== */
+.about--container {
+  margin-block: 5rem;
+}
+
 .about__img--container {
   display: block;
+  margin-bottom: 3rem;
 }
 
 .about__img {
