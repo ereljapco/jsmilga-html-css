@@ -531,6 +531,9 @@ Services
 /* ===============
 Projects
 =============== */
+.projects--container {
+  margin-block: 4rem;
+}
 
 /* ===============
 Connect
