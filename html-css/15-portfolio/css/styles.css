@@ -188,6 +188,7 @@ Navbar
   padding-inline: 1rem;
   background-color: var(--clr-white);
   box-shadow: var(--dark-shadow);
+  z-index: 1;
 }
 
 .navbar-fixed {
