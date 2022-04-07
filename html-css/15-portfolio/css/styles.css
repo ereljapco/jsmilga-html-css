@@ -487,6 +487,19 @@ Services
   padding-inline: 1rem;
 }
 
+.service:hover {
+  color: var(--clr-white);
+  background-color: var(--clr-primary-5);
+}
+
+.service:hover p {
+  color: var(--clr-white);
+}
+
+.service:hover .service--underline {
+  background-color: var(--clr-white);
+}
+
 .service__icon {
   display: block;
   font-size: 2rem;
