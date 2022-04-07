@@ -466,6 +466,9 @@ About
 /* ===============
 Services
 =============== */
+.services {
+  padding-block: 5rem;
+}
 .services__title {
   text-align: center;
 }
