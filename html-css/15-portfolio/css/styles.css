@@ -483,10 +483,14 @@ Services
   border-radius: var(--radius);
   margin-bottom: 2rem;
   text-align: center;
+  padding-block: 2.5rem 4rem;
+  padding-inline: 1rem;
 }
 
 .service__icon {
+  display: block;
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .service--underline {
