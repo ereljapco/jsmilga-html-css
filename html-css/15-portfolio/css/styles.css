@@ -544,6 +544,11 @@ Projects
   margin-bottom: 1.25rem;
 }
 
+.projects__text {
+  width: 95%;
+  max-width: 30rem;
+}
+
 /* ===============
 Connect
 =============== */
