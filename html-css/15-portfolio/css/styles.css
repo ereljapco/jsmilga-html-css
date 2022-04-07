@@ -475,6 +475,7 @@ Services
 
 .services--underline {
   margin-inline: auto;
+  margin-bottom: 4rem;
 }
 
 .service {
