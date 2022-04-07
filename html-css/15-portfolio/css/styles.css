@@ -433,6 +433,10 @@ About
     border: 5px solid var(--clr-primary-5);
     border-radius: var(--radius);
   }
+
+  .about__img {
+    position: relative;
+  }
 }
 
 /* ===============
