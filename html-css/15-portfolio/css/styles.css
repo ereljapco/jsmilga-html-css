@@ -160,6 +160,10 @@ p {
   background-color: var(--clr-primary-5);
 }
 
+.section--grey-bg {
+  background-color: var(--clr-grey-10);
+}
+
 @media screen and (min-width: 992px) {
   .section--center {
     width: 95vw;
