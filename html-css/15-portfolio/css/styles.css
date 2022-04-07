@@ -383,6 +383,15 @@ Hero
 /* ===============
 About
 =============== */
+.about__img--container {
+  display: block;
+}
+
+.about__img {
+  max-width: 20rem;
+  margin-inline: auto;
+  border-radius: var(--radius);
+}
 
 /* ===============
 Services
