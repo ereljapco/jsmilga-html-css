@@ -535,6 +535,14 @@ Projects
   margin-block: 4rem;
 }
 
+.projects__info {
+  text-align: center;
+}
+
+.projects--underline {
+  margin-inline: auto;
+}
+
 /* ===============
 Connect
 =============== */
