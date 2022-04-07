@@ -481,6 +481,7 @@ Services
 .service {
   background-color: var(--clr-white);
   border-radius: var(--radius);
+  margin-bottom: 2rem;
 }
 
 .service__icon {
