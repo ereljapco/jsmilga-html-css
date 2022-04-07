@@ -189,14 +189,17 @@ p {
 Navbar
 =============== */
 .navbar {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  height: 5rem;
   padding-inline: 1rem;
   background-color: var(--clr-white);
   box-shadow: var(--dark-shadow);
   z-index: 1;
+}
+
+.navbar--container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  height: 5rem;
 }
 
 .navbar-fixed {
