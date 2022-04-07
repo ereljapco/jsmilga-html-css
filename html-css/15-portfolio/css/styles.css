@@ -403,6 +403,14 @@ About
   border-radius: var(--radius);
 }
 
+.about--underline {
+  margin-bottom: 2rem;
+}
+
+.about__text {
+  margin-bottom: 1.25rem;
+}
+
 /* ===============
 Services
 =============== */
