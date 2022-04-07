@@ -363,6 +363,7 @@ Hero
   }
 
   .hero__img--container {
+    display: block;
     position: relative;
   }
 
