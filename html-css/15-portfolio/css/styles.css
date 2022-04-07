@@ -522,6 +522,12 @@ Services
   }
 }
 
+@media screen and (min-width: 992px) {
+  .service--container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* ===============
 Projects
 =============== */
