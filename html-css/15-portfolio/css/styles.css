@@ -547,6 +547,8 @@ Projects
 .projects__text {
   width: 95%;
   max-width: 30rem;
+  margin-inline: auto;
+  margin-bottom: 4rem;
 }
 
 /* ===============
