@@ -466,6 +466,13 @@ About
 /* ===============
 Services
 =============== */
+.services__title {
+  text-align: center;
+}
+
+.services--underline {
+  margin-inline: auto;
+}
 
 /* ===============
 Projects
