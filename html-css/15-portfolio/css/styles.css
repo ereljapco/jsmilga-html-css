@@ -421,6 +421,7 @@ About
 
   .about__img--container {
     position: relative;
+    margin-bottom: 0;
   }
 
   .about__img--container::before {
