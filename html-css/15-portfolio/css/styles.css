@@ -483,6 +483,10 @@ Services
   border-radius: var(--radius);
 }
 
+.service__icon {
+  font-size: 2rem;
+}
+
 /* ===============
 Projects
 =============== */
