@@ -477,6 +477,11 @@ Services
   margin-inline: auto;
 }
 
+.service {
+  background-color: var(--clr-white);
+  border-radius: var(--radius);
+}
+
 /* ===============
 Projects
 =============== */
