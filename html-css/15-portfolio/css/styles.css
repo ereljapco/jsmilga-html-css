@@ -514,6 +514,14 @@ Services
   margin-bottom: 1.5rem;
 }
 
+@media screen and (min-width: 676px) {
+  .service--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
 /* ===============
 Projects
 =============== */
