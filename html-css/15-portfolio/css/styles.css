@@ -667,6 +667,14 @@ Connect
 /* ===============
 Skills
 =============== */
+.skills__title {
+  text-align: center;
+}
+
+.skills--underline {
+  margin-inline: auto;
+  margin-bottom: 4rem;
+}
 
 /* ===============
 Timeline
