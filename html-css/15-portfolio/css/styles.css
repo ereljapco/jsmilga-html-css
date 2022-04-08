@@ -685,6 +685,10 @@ Skills
   font-size: 1.25rem;
 }
 
+.skill {
+  margin-bottom: 1.5rem;
+}
+
 .skill__title {
   color: var(--clr-primary-3);
   font-size: 0.875rem;
