@@ -553,6 +553,9 @@ Projects
 
 .project {
   height: 15rem;
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  overflow: hidden;
 }
 
 .project__img {
