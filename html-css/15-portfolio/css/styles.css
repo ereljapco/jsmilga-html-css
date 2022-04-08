@@ -551,6 +551,19 @@ Projects
   margin-bottom: 4rem;
 }
 
+.project {
+  height: 15rem;
+}
+
+.project__img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.project__info {
+  display: none;
+}
+
 /* ===============
 Connect
 =============== */
