@@ -691,6 +691,7 @@ Skills
 
 .skill__title {
   color: var(--clr-primary-3);
+  font-family: var(--ff-secondary);
   font-size: 0.875rem;
   font-weight: 400;
   letter-spacing: 0;
