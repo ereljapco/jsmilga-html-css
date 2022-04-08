@@ -757,6 +757,10 @@ Timeline
   margin-block: 4rem;
 }
 
+.timeline__header {
+  margin-bottom: 4rem;
+}
+
 /* ===============
 Blog
 =============== */
