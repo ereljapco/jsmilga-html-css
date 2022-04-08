@@ -667,6 +667,9 @@ Connect
 /* ===============
 Skills
 =============== */
+.skills {
+  padding-block: 5rem;
+}
 .skills__title {
   text-align: center;
 }
