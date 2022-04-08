@@ -766,6 +766,11 @@ Timeline
   border-style: dashed;
 }
 
+.time--border-right {
+  border-width: 0 2px 2px 0;
+  border-bottom-right-radius: 3rem;
+}
+
 /* ===============
 Blog
 =============== */
