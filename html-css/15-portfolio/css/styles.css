@@ -485,12 +485,8 @@ Services
 .services {
   padding-block: 5rem;
 }
-.services__title {
-  text-align: center;
-}
 
 .services--underline {
-  margin-inline: auto;
   margin-bottom: 4rem;
 }
 
@@ -551,12 +547,7 @@ Projects
   margin-block: 4rem;
 }
 
-.projects__info {
-  text-align: center;
-}
-
 .projects--underline {
-  margin-inline: auto;
   margin-bottom: 1.25rem;
 }
 
@@ -678,12 +669,8 @@ Skills
 .skills {
   padding-block: 4rem;
 }
-.skills__title {
-  text-align: center;
-}
 
 .skills--underline {
-  margin-inline: auto;
   margin-bottom: 4rem;
 }
 
