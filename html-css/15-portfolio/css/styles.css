@@ -724,6 +724,25 @@ Skills
   width: 80%;
 }
 
+.skill__percent {
+  position: absolute;
+  top: -2rem;
+  transform: translateX(-50%);
+  color: var(--clr-primary-3);
+}
+
+.skill__percent--50 {
+  left: 50%;
+}
+
+.skill__percent--70 {
+  left: 70%;
+}
+
+.skill__percent--80 {
+  left: 80%;
+}
+
 /* ===============
 Timeline
 =============== */
