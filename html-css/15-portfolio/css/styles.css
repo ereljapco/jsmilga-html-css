@@ -692,6 +692,10 @@ Skills
   letter-spacing: 0;
 }
 
+.skill__bar {
+  position: relative;
+}
+
 .skill__rating {
   position: relative;
   display: block;
@@ -708,15 +712,15 @@ Skills
   border-radius: var(--radius);
 }
 
-.skill--50::before {
+.skill__rating--50::before {
   width: 50%;
 }
 
-.skill--70::before {
+.skill__rating--70::before {
   width: 70%;
 }
 
-.skill--80::before {
+.skill__rating--80::before {
   width: 80%;
 }
 
