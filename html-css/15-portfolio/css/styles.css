@@ -676,6 +676,19 @@ Skills
   margin-bottom: 4rem;
 }
 
+.frontend__title,
+.backend__title {
+  color: var(--clr-primary-3);
+  font-size: 1.25rem;
+}
+
+.skill__title {
+  color: var(--clr-primary-3);
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
 /* ===============
 Timeline
 =============== */
