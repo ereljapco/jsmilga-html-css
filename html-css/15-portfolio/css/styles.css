@@ -689,6 +689,34 @@ Skills
   letter-spacing: 0;
 }
 
+.skill__rating {
+  position: relative;
+  display: block;
+  height: 1rem;
+  background-color: var(--clr-white);
+  border-radius: var(--radius);
+}
+
+.skill__rating::before {
+  position: absolute;
+  content: "";
+  height: inherit;
+  background-color: var(--clr-primary-5);
+  border-radius: var(--radius);
+}
+
+.skill--50::before {
+  width: 50%;
+}
+
+.skill--70::before {
+  width: 70%;
+}
+
+.skill--80::before {
+  width: 80%;
+}
+
 /* ===============
 Timeline
 =============== */
