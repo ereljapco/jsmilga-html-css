@@ -757,6 +757,9 @@ Skills
 /* ===============
 Timeline
 =============== */
+.timeline {
+  margin-block: 4rem;
+}
 
 /* ===============
 Blog
