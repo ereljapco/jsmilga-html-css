@@ -168,6 +168,14 @@ p {
   background-color: var(--clr-primary-9);
 }
 
+.section--header-center .title {
+  text-align: center;
+}
+
+.section--header-center .underline {
+  margin-inline: auto;
+}
+
 @media screen and (min-width: 992px) {
   .section--center {
     width: 95vw;
