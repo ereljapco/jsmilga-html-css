@@ -623,6 +623,35 @@ Projects
   }
 }
 
+@media screen and (min-width: 1170px) {
+  .project--container {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "project-1 project-2 project-2"
+      "project-1 project-3 project-4";
+  }
+
+  .project {
+    height: 12rem;
+  }
+
+  .project-1 {
+    grid-area: project-1;
+    height: 100%;
+  }
+
+  .project-2 {
+    grid-area: project-2;
+  }
+
+  .project-3 {
+    grid-area: project-3;
+  }
+
+  .project-4 {
+    grid-area: project-4;
+  }
+}
 /* ===============
 Connect
 =============== */
