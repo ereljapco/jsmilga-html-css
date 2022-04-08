@@ -553,14 +553,20 @@ Projects
 
 .project {
   height: 15rem;
+  background-color: var(--clr-primary-5);
   border-radius: var(--radius);
   margin-bottom: 2rem;
   overflow: hidden;
 }
 
+.project:hover .project__img {
+  opacity: 0.1;
+}
+
 .project__img {
   object-fit: cover;
   height: 100%;
+  transition: var(--transition);
 }
 
 .project__info {
