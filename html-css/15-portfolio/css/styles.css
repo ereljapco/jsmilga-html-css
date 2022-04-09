@@ -832,10 +832,19 @@ Blog
 
 .blog-post {
   position: relative;
+}
+
+.blog-post--front {
   background-color: var(--clr-white);
   border-radius: var(--radius);
   margin-bottom: 3rem;
   overflow: hidden;
+  transition: all 1.5s linear;
+}
+
+.blog-post--front:hover {
+  transform: rotateY(-90deg);
+  /* opacity: 0; */
 }
 
 .blog-post__img {
