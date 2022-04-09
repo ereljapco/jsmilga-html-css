@@ -823,7 +823,7 @@ Timeline
 Blog
 =============== */
 .blog--container {
-  padding-block: 5rem;
+  padding-block: 5rem 2rem;
 }
 
 .blog__header {
