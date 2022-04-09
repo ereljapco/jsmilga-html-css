@@ -862,6 +862,11 @@ Blog
   border-radius: 50%;
 }
 
+.blog-post__read {
+  color: var(--clr-primary-5);
+  text-transform: uppercase;
+}
+
 /* ===============
 Footer
 =============== */
