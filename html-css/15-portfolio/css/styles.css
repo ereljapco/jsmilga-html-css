@@ -67,7 +67,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.nav__logo) {
+img:not(.nav__logo):not(.blog-post__author) {
   width: 100%;
   display: block;
 }
@@ -833,6 +833,7 @@ Blog
 .blog-post {
   background-color: var(--clr-white);
   border-radius: var(--radius);
+  margin-bottom: 3rem;
   overflow: hidden;
 }
 
@@ -848,6 +849,13 @@ Blog
 .blog-post__footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.blog-post__author {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /* ===============
