@@ -813,6 +813,12 @@ Timeline
   transform: translateY(-50%);
 }
 
+.time:nth-child(even) .time__number {
+  top: 50%;
+  left: -1rem;
+  transform: translateY(-50%);
+}
+
 /* ===============
 Blog
 =============== */
