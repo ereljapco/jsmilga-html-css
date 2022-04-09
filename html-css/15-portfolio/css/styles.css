@@ -774,6 +774,7 @@ Timeline
 .time:nth-child(odd) {
   border-width: 0 2px 0 0;
   border-bottom-right-radius: 2rem;
+  padding: 4rem 2rem 4rem 0;
   margin-left: 2rem;
 }
 
@@ -785,6 +786,7 @@ Timeline
 .time:nth-child(even) {
   border-width: 2px 0 0 2px;
   border-top-left-radius: 2rem;
+  padding: 4rem 0 4rem 2rem;
   margin-right: 2rem;
 }
 
