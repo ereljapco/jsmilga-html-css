@@ -678,7 +678,7 @@ Connect
   opacity: 0.3;
 }
 
-.connect__info {
+.connect__info--container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -695,6 +695,11 @@ Connect
   height: 70%;
   transform: translate(-50%, -50%);
   background-color: var(--clr-primary-8);
+}
+
+.connect__info {
+  width: 50%;
+  margin-inline: auto;
 }
 
 /* ===============
