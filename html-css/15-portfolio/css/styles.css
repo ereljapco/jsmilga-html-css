@@ -767,6 +767,7 @@ Timeline
 }
 
 .time {
+  position: relative;
   border-color: var(--clr-primary-5);
   border-style: dashed;
 }
@@ -795,6 +796,7 @@ Timeline
 }
 
 .time__number {
+  position: absolute;
   width: 2rem;
   height: 2rem;
   color: var(--clr-primary-10);
@@ -803,6 +805,12 @@ Timeline
   line-height: 2rem;
   background-color: var(--clr-primary-5);
   border-radius: 50%;
+}
+
+.time:nth-child(odd) .time__number {
+  top: 50%;
+  right: -1rem;
+  transform: translateY(-50%);
 }
 
 /* ===============
