@@ -831,6 +831,7 @@ Blog
 }
 
 .blog-post {
+  position: relative;
   background-color: var(--clr-white);
   border-radius: var(--radius);
   margin-bottom: 3rem;
@@ -866,6 +867,18 @@ Blog
   justify-self: self-end;
   color: var(--clr-primary-5);
   text-transform: uppercase;
+}
+
+.blog-post--back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--clr-primary-9);
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ===============
