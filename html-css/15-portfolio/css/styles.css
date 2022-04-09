@@ -761,10 +761,14 @@ Timeline
   margin-bottom: 4rem;
 }
 
+.time--container {
+  width: 90%;
+  margin-inline: auto;
+}
+
 .time {
   border-color: var(--clr-primary-5);
   border-style: dashed;
-  width: 70%;
 }
 
 .time:nth-child(odd) {
