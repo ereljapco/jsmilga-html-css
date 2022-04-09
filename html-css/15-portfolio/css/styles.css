@@ -904,6 +904,10 @@ Blog
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem 1rem;
   }
+
+  .blog-post {
+    margin-bottom: 0;
+  }
 }
 
 /* ===============
