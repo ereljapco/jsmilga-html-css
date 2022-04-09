@@ -832,12 +832,12 @@ Blog
 
 .blog-post {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .blog-post--front {
   background-color: var(--clr-white);
   border-radius: var(--radius);
-  margin-bottom: 3rem;
   overflow: hidden;
   transition: all 1.5s linear;
   backface-visibility: hidden;
