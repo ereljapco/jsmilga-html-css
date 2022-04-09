@@ -794,6 +794,17 @@ Timeline
   border-bottom-left-radius: 2rem;
 }
 
+.time__number {
+  width: 2rem;
+  height: 2rem;
+  color: var(--clr-primary-10);
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  background-color: var(--clr-primary-5);
+  border-radius: 50%;
+}
+
 /* ===============
 Blog
 =============== */
