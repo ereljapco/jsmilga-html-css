@@ -863,6 +863,7 @@ Blog
 }
 
 .blog-post__read {
+  justify-self: self-end;
   color: var(--clr-primary-5);
   text-transform: uppercase;
 }
