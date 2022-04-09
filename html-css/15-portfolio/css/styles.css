@@ -766,12 +766,12 @@ Timeline
   border-style: dashed;
 }
 
-.time--border-right {
+.time:nth-child(odd) {
   border-width: 0 2px 0 0;
   border-bottom-right-radius: 3rem;
 }
 
-.time--border-right:not(:first-child) {
+.time:nth-child(odd):not(:first-child) {
   border-top-width: 2px;
   border-top-right-radius: 3rem;
 }
