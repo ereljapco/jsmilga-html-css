@@ -899,6 +899,10 @@ Blog
 }
 
 @media screen and (min-width: 768px) {
+  .blog--container {
+    padding-bottom: 5rem;
+  }
+
   .blog__posts {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
