@@ -776,6 +776,11 @@ Timeline
   border-top-right-radius: 3rem;
 }
 
+.time:nth-child(even) {
+  border-width: 0 0 0 2px;
+  border-top-left-radius: 3rem;
+}
+
 /* ===============
 Blog
 =============== */
