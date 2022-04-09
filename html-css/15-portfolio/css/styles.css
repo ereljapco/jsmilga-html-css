@@ -876,7 +876,7 @@ Blog
   right: 0;
   bottom: 0;
   background-color: var(--clr-primary-9);
-  display: grid;
+  display: none;
   justify-content: center;
   align-items: center;
 }
