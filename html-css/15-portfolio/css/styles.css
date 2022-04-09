@@ -764,11 +764,13 @@ Timeline
 .time {
   border-color: var(--clr-primary-5);
   border-style: dashed;
+  width: 70%;
 }
 
 .time:nth-child(odd) {
   border-width: 0 2px 0 0;
   border-bottom-right-radius: 3rem;
+  margin-left: 3rem;
 }
 
 .time:nth-child(odd):not(:first-child) {
@@ -779,6 +781,7 @@ Timeline
 .time:nth-child(even) {
   border-width: 2px 0 0 2px;
   border-top-left-radius: 3rem;
+  margin-right: 3rem;
 }
 
 /* ===============
