@@ -841,6 +841,10 @@ Blog
   object-fit: cover;
 }
 
+.blog-post__info {
+  padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
 /* ===============
 Footer
 =============== */
