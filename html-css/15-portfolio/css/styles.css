@@ -773,19 +773,19 @@ Timeline
 
 .time:nth-child(odd) {
   border-width: 0 2px 0 0;
-  border-bottom-right-radius: 3rem;
-  margin-left: 3rem;
+  border-bottom-right-radius: 2rem;
+  margin-left: 2rem;
 }
 
 .time:nth-child(odd):not(:first-child) {
   border-top-width: 2px;
-  border-top-right-radius: 3rem;
+  border-top-right-radius: 2rem;
 }
 
 .time:nth-child(even) {
   border-width: 2px 0 0 2px;
-  border-top-left-radius: 3rem;
-  margin-right: 3rem;
+  border-top-left-radius: 2rem;
+  margin-right: 2rem;
 }
 
 /* ===============
