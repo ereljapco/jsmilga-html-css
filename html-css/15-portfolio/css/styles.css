@@ -898,6 +898,14 @@ Blog
   transform: rotateY(0deg);
 }
 
+@media screen and (min-width: 768px) {
+  .blog__posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 1rem;
+  }
+}
+
 /* ===============
 Footer
 =============== */
