@@ -664,6 +664,7 @@ Projects
 Connect
 =============== */
 .connect {
+  position: relative;
   clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
   height: 100vh;
 }
@@ -675,6 +676,25 @@ Connect
   left: 0;
   object-fit: cover;
   opacity: 0.3;
+}
+
+.connect__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  width: 100%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+  background-color: var(--clr-primary-8);
 }
 
 /* ===============
