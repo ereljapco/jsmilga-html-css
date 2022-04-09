@@ -836,6 +836,11 @@ Blog
   overflow: hidden;
 }
 
+.blog-post__img {
+  height: 13rem;
+  object-fit: cover;
+}
+
 /* ===============
 Footer
 =============== */
