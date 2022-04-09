@@ -822,6 +822,13 @@ Timeline
 /* ===============
 Blog
 =============== */
+.blog--container {
+  padding-block: 5rem;
+}
+
+.blog__header {
+  margin-bottom: 4rem;
+}
 
 /* ===============
 Footer
