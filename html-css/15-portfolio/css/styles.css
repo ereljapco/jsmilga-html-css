@@ -905,10 +905,18 @@ Footer
   background-color: #222;
 }
 
+.footer__social-links {
+  margin-inline: auto;
+}
+
 .footer__social-link {
   color: var(--clr-primary-5);
 }
 
 .footer__social-link:hover {
   color: var(--clr-primary-10);
+}
+
+.footer__text {
+  text-align: center;
 }
