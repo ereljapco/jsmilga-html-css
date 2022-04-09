@@ -845,6 +845,11 @@ Blog
   padding: 1rem 1.5rem 2rem 1.5rem;
 }
 
+.blog-post__footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* ===============
 Footer
 =============== */
