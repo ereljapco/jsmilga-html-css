@@ -921,5 +921,8 @@ Footer
 }
 
 .footer__text {
+  color: var(--clr-primary-8);
+  font-size: 1.25rem;
+  text-transform: capitalize;
   text-align: center;
 }
