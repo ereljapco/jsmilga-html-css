@@ -830,6 +830,12 @@ Blog
   margin-bottom: 4rem;
 }
 
+.blog-post {
+  background-color: var(--clr-white);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
 /* ===============
 Footer
 =============== */
