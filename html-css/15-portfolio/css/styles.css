@@ -914,6 +914,19 @@ Blog
   }
 }
 
+@media screen and (min-width: 1170px) {
+  .blog__posts {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog-post__info {
+    padding-bottom: 2rem;
+  }
+
+  .blog-post__read {
+    font-size: 0.875rem;
+  }
+}
 /* ===============
 Footer
 =============== */
