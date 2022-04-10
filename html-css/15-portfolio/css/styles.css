@@ -697,7 +697,7 @@ Connect
   transform: translateX(-50%);
   width: 100%;
   background-color: var(--clr-primary-8);
-  padding-block: 3rem 11rem;
+  padding-block: 3rem 12rem;
   padding-inline: 5rem;
   text-align: center;
 }
