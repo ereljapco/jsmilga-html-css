@@ -702,6 +702,10 @@ Connect
   text-align: center;
 }
 
+.connect__header {
+  margin-bottom: 2rem;
+}
+
 /* ===============
 Skills
 =============== */
