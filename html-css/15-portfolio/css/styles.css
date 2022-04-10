@@ -666,10 +666,13 @@ Connect
 .connect {
   position: relative;
   clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
-  height: 100vh;
+  min-height: 40vh;
+  padding: 10rem 0 5rem 0;
+  margin-block: 5rem;
 }
 
 .connect__video {
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -679,7 +682,7 @@ Connect
 }
 
 .connect__info--container {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   clip-path: polygon(
@@ -691,15 +694,18 @@ Connect
     50% 75%,
     0% 75%
   );
+  transform: translateX(-50%);
   width: 100%;
-  height: 70%;
-  transform: translate(-50%, -50%);
   background-color: var(--clr-primary-8);
+  padding-block: 3rem 11rem;
+  padding-inline: 5rem;
 }
 
-.connect__info {
-  width: 50%;
-  margin-inline: auto;
+/* .connect__info {
+} */
+
+.connect__text {
+  text-align: center;
 }
 
 /* ===============
