@@ -699,12 +699,6 @@ Connect
   background-color: var(--clr-primary-8);
   padding-block: 3rem 11rem;
   padding-inline: 5rem;
-}
-
-/* .connect__info {
-} */
-
-.connect__text {
   text-align: center;
 }
 
