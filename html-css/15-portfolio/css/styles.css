@@ -706,6 +706,10 @@ Connect
   margin-bottom: 2rem;
 }
 
+.connect__text {
+  margin-bottom: 1.25rem;
+}
+
 /* ===============
 Skills
 =============== */
