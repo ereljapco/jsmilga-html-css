@@ -1082,3 +1082,8 @@ Projects Page
 .single-project__text {
   margin-bottom: 1rem;
 }
+
+.single-project__footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
