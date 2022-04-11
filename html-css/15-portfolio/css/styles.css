@@ -1032,6 +1032,13 @@ Footer
 }
 
 /* ===============
+Contact Page
+=============== */
+.contact-page__text {
+  margin-bottom: 1.25rem;
+}
+
+/* ===============
 Projects Page
 =============== */
 .projects-page__header {
