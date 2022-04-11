@@ -1042,11 +1042,14 @@ Projects Page
 
 .projects-page__main {
   margin-block: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 3rem 1rem;
 }
 
 /* single project */
 .single-project {
-  width: 90vw;
+  min-width: 330px;
   margin-inline: auto;
   background-color: var(--clr-grey-10);
   border-radius: var(--radius);
