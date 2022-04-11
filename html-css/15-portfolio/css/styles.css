@@ -1039,3 +1039,11 @@ Projects Page
   display: grid;
   align-content: center;
 }
+
+/* single project */
+.single-project {
+  width: 330px;
+  margin-inline: auto;
+  background-color: var(--clr-grey-10);
+  border-radius: var(--radius);
+}
