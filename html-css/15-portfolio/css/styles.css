@@ -1065,6 +1065,12 @@ Projects Page
   border-radius: 50%;
 }
 
+/* single project info */
+.single-project__info {
+  padding-block: 2rem;
+  padding-inline: 1.5rem;
+}
+
 .single-project__title {
   font-size: 0.875rem;
 }
