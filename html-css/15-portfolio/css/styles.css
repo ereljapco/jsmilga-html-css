@@ -1107,3 +1107,11 @@ Projects Page
   color: var(--clr-primary-5);
   text-transform: capitalize;
 }
+
+@media screen and (min-width: 800px) {
+  .single-project__title,
+  .single-project__text,
+  .single-project__footer-icon {
+    font-size: 1rem;
+  }
+}
