@@ -243,6 +243,7 @@ Navbar
 }
 
 .navbar-fixed {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -344,6 +345,7 @@ Navbar
   .navbar__links {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
 
@@ -475,6 +477,7 @@ About
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
 
@@ -550,6 +553,7 @@ Services
   .service--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
 }
@@ -604,6 +608,7 @@ Projects
 }
 
 .project__img {
+  -o-object-fit: cover;
   object-fit: cover;
   height: 100%;
   transition: var(--transition);
@@ -685,6 +690,7 @@ Connect
 =============== */
 .connect {
   position: relative;
+  -webkit-clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
   clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
   min-height: 40vh;
   padding: 10rem 0 5rem 0;
@@ -697,6 +703,7 @@ Connect
   height: 100%;
   top: 0;
   left: 0;
+  -o-object-fit: cover;
   object-fit: cover;
   opacity: 0.3;
 }
@@ -705,6 +712,15 @@ Connect
   position: relative;
   top: 50%;
   left: 50%;
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
   clip-path: polygon(
     0% 0%,
     100% 0%,
@@ -821,6 +837,7 @@ Skills
   .skill--container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
 }
@@ -915,6 +932,7 @@ Blog
   border-radius: var(--radius);
   overflow: hidden;
   transition: all 1.5s linear;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -924,6 +942,7 @@ Blog
 
 .blog-post__img {
   height: 13rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -943,6 +962,7 @@ Blog
 .blog-post__author {
   width: 2rem;
   height: 2rem;
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -966,6 +986,7 @@ Blog
   align-items: center;
   transform: rotateY(-180deg);
   transition: all 1.5s linear;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -1069,6 +1090,7 @@ Projects Page
 
 .single-project__img {
   height: 12rem;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
