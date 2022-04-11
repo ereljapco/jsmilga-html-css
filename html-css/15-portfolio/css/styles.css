@@ -184,6 +184,10 @@ p {
   padding-block: 5rem;
 }
 
+.page-section--container .header {
+  margin-bottom: 4rem;
+}
+
 @media screen and (min-width: 992px) {
   .section--center {
     width: 95vw;
