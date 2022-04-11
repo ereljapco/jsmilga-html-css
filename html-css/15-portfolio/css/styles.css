@@ -107,7 +107,7 @@ p {
 /* global classes */
 .btn {
   display: inline-block;
-  color: var(--clr-primary-9);
+  color: var(--clr-primary-1);
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
