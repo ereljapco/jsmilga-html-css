@@ -1040,6 +1040,10 @@ Projects Page
   align-content: center;
 }
 
+.projects-page__main {
+  margin-block: 5rem;
+}
+
 /* single project */
 .single-project {
   width: 330px;
