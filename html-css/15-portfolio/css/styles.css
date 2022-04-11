@@ -1046,7 +1046,7 @@ Projects Page
 
 /* single project */
 .single-project {
-  width: 330px;
+  width: 90vw;
   margin-inline: auto;
   background-color: var(--clr-grey-10);
   border-radius: var(--radius);
