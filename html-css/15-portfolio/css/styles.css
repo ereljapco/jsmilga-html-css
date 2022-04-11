@@ -122,8 +122,8 @@ p {
 }
 
 .btn:hover {
-  color: var(--clr-primary-3);
-  background-color: var(--clr-primary-8);
+  color: var(--clr-primary-1);
+  background-color: var(--clr-primary-7);
 }
 
 .social-links {
