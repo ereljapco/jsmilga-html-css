@@ -179,6 +179,7 @@ p {
 .page-section--container {
   width: 90vw;
   max-width: 45rem;
+  height: calc(100vh - 274px);
   margin-inline: auto;
 }
 
