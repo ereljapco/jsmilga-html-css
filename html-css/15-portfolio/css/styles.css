@@ -1088,6 +1088,11 @@ Projects Page
   grid-template-columns: repeat(2, 1fr);
 }
 
+.single-project__footer-icon {
+  color: var(--clr-primary-5);
+  font-size: 0.875rem;
+}
+
 .single-project__footer-link {
   justify-self: flex-end;
   color: var(--clr-primary-5);
