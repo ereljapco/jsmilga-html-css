@@ -1056,7 +1056,7 @@ Projects Page
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 50%);
   font-size: 1.75rem;
   color: var(--clr-primary-2);
   background-color: var(--clr-primary-5);
