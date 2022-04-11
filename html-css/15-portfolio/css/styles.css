@@ -1047,3 +1047,14 @@ Projects Page
   background-color: var(--clr-grey-10);
   border-radius: var(--radius);
 }
+
+.single-project__img--container {
+  position: relative;
+}
+
+.single-project__icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
