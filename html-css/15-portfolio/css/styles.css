@@ -1030,3 +1030,12 @@ Footer
   text-transform: capitalize;
   text-align: center;
 }
+
+/* ===============
+Projects Page
+=============== */
+.projects-page__header {
+  height: 40vh;
+  display: grid;
+  align-content: center;
+}
