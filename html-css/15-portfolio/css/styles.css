@@ -178,7 +178,7 @@ p {
 
 .page-section--container {
   width: 90vw;
-  max-width: 45rem;
+  max-width: 700px;
   height: calc(100vh - 274px);
   margin-inline: auto;
   padding-block: 5rem;
