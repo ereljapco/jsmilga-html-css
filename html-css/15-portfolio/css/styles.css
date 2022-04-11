@@ -1057,4 +1057,6 @@ Projects Page
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  color: var(--clr-primary-2);
+  background-color: var(--clr-primary-5);
 }
