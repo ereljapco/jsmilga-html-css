@@ -233,6 +233,7 @@ Navbar
 .navbar--container {
   width: 100%;
   max-width: 1170px;
+  margin-inline: auto;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
