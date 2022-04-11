@@ -1057,6 +1057,11 @@ Projects Page
   position: relative;
 }
 
+.single-project__img {
+  height: 12rem;
+  object-fit: cover;
+}
+
 .single-project__icon {
   position: absolute;
   bottom: 0;
