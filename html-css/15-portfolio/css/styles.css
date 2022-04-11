@@ -1105,5 +1105,5 @@ Projects Page
 .single-project__footer-link {
   justify-self: flex-end;
   color: var(--clr-primary-5);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
