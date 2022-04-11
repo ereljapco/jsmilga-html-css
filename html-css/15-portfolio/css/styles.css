@@ -5,19 +5,19 @@ Variables
   /* fonts */
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  /* darker primary color */
-  --clr-primary-1: hsl(264, 20%, 5%);
-  --clr-primary-2: hsl(264, 19%, 15%);
-  --clr-primary-3: hsl(266, 20%, 25%);
-  --clr-primary-4: hsl(264, 20%, 35%);
-  /* primary color */
-  --clr-primary-5: hsl(265, 20%, 45%);
-  /* lighter primary color */
-  --clr-primary-6: hsl(264, 20%, 55%);
-  --clr-primary-7: hsl(266, 20%, 65%);
-  --clr-primary-8: hsl(264, 20%, 75%);
-  --clr-primary-9: hsl(264, 19%, 85%);
-  --clr-primary-10: hsl(264, 20%, 95%);
+  /* darkest primary colors */
+  --clr-primary-1: hsl(43, 86%, 17%);
+  --clr-primary-2: hsl(43, 77%, 27%);
+  --clr-primary-3: hsl(43, 72%, 37%);
+  --clr-primary-4: hsl(42, 63%, 48%);
+  /* primary colors */
+  --clr-primary-5: hsl(42, 78%, 60%);
+  /* lighter primary colors */
+  --clr-primary-6: hsl(43, 89%, 70%);
+  --clr-primary-7: hsl(43, 90%, 76%);
+  --clr-primary-8: hsl(45, 86%, 81%);
+  --clr-primary-9: hsl(45, 90%, 88%);
+  --clr-primary-10: hsl(45, 100%, 96%);
   /* darkest grey - headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
