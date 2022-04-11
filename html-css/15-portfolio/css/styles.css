@@ -188,6 +188,10 @@ p {
   margin-bottom: 4rem;
 }
 
+.page-section--container a {
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 992px) {
   .section--center {
     width: 95vw;
