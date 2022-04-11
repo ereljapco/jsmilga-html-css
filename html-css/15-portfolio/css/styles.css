@@ -748,7 +748,7 @@ Skills
 
 .frontend__title,
 .backend__title {
-  color: var(--clr-primary-3);
+  color: var(--clr-primary-1);
   font-size: 1.25rem;
   margin-bottom: 1.75rem;
 }
@@ -758,7 +758,7 @@ Skills
 }
 
 .skill__title {
-  color: var(--clr-primary-3);
+  color: var(--clr-primary-1);
   font-family: var(--ff-secondary);
   font-size: 0.875rem;
   font-weight: 400;
@@ -802,7 +802,7 @@ Skills
   position: absolute;
   top: -2rem;
   transform: translateX(-50%);
-  color: var(--clr-primary-3);
+  color: var(--clr-primary-1);
 }
 
 .skill__percent--50 {
