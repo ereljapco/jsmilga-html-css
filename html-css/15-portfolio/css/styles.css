@@ -189,6 +189,7 @@ p {
 }
 
 .page-section--container a {
+  color: var(--clr-primary-5);
   text-transform: uppercase;
 }
 
